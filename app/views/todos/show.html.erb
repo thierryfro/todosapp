@@ -1,31 +1,28 @@
-<div class="container">
+<p id="notice"><%= notice %></p>
 
-  <p id="notice"><%= notice %></p>
+<p>
+  <strong>Name:</strong>
+  <%= @todo.name %>
+  <% @todo.tasks.each do |task| %>
+    <p>
+      <%= task.title %>
+      <%= link_to edit_task_path(task) do %>
+        <%= fa_icon "edit" %>
+      <% end %>
 
-  <p>
-    <strong>Name:</strong>
-    <%= @todo.name %>
-    <% @todo.tasks.each do |task| %>
-      <p>
-        <%= task.title %>
-        <%= link_to edit_task_path(task) do %>
-          <%= fa_icon "edit" %>
-        <% end %>
+      <%= link_to @todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
+        <%= fa_icon "trash" %>
+      <% end %>
 
-        <%= link_to @todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
-          <%= fa_icon "trash" %>
-        <% end %>
+      <%= simple_form_for task do |c| %>
+        <%= c.input :done %>
+        <%= c.submit 'Mark as done' %>
+      <% end %>
+    </p>
+  <% end %>
+</p>
 
-        <%= simple_form_for task do |c| %>
-          <%= c.input :done %>
-          <%= c.submit 'Mark as done' %>
-        <% end %>
-      </p>
-    <% end %>
-  </p>
+<%= render 'tasks/task_form', todo: @todo, task: @task %>
 
-  <%= render 'tasks/task_form', todo: @todo, task: @task %>
-
-  <%= link_to 'Edit', edit_todo_path(@todo) %> |
-  <%= link_to 'Back', todos_path %>
-</div>
+<%= link_to 'Edit', edit_todo_path(@todo) %> |
+<%= link_to 'Back', todos_path %>

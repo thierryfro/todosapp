@@ -1502,3 +1502,53 @@ Processing by TodosController#show as HTML
 Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 1.3ms | Allocations: 18267)
 
 
+Started GET "/todos/2" for ::1 at 2022-02-03 17:09:24 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:46:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 7.7ms | Allocations: 3548)
+  Rendered todos/show.html.erb within layouts/application (Duration: 90.0ms | Allocations: 21769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 127.3ms | Allocations: 39978)
+Completed 200 OK in 190ms (Views: 131.9ms | ActiveRecord: 12.5ms | Allocations: 52384)
+
+
+Started PATCH "/tasks/3" for ::1 at 2022-02-03 17:09:30 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"1"}, "commit"=>"Mark as done", "id"=>"3"}
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTask Update (1.3ms)[0m  [1m[33mUPDATE "tasks" SET "done" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["done", true], ["updated_at", "2022-02-03 20:09:30.899272"], ["id", 3]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 31ms (ActiveRecord: 6.2ms | Allocations: 4821)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:09:30 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:46:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (16.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.6ms | Allocations: 2932)
+  Rendered todos/show.html.erb within layouts/application (Duration: 41.6ms | Allocations: 9609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.5ms | Allocations: 17189)
+Completed 200 OK in 60ms (Views: 39.2ms | ActiveRecord: 17.4ms | Allocations: 18297)
+
+
