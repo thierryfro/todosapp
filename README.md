@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Awesome To-Do List App
 
-Things you may want to cover:
+What you need to run this:
 
-* Ruby version
+* clone the repo
+* bundle
+* yarn
+* create the database -> rake db:create
+* run the migrations -> rake db:migrate
 
-* System dependencies
+Now you can enjoy your Awesome To-DO List
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+;˜
