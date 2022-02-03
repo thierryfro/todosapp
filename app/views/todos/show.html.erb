@@ -1,9 +1,31 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
 
-<p>
-  <strong>Name:</strong>
-  <%= @todo.name %>
-</p>
+  <p id="notice"><%= notice %></p>
 
-<%= link_to 'Edit', edit_todo_path(@todo) %> |
-<%= link_to 'Back', todos_path %>
+  <p>
+    <strong>Name:</strong>
+    <%= @todo.name %>
+    <% @todo.tasks.each do |task| %>
+      <p>
+        <%= task.title %>
+        <%= link_to edit_task_path(task) do %>
+          <%= fa_icon "edit" %>
+        <% end %>
+
+        <%= link_to @todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
+          <%= fa_icon "trash" %>
+        <% end %>
+
+        <%= simple_form_for task do |c| %>
+          <%= c.input :done %>
+          <%= c.submit 'Mark as done' %>
+        <% end %>
+      </p>
+    <% end %>
+  </p>
+
+  <%= render 'tasks/task_form', todo: @todo, task: @task %>
+
+  <%= link_to 'Edit', edit_todo_path(@todo) %> |
+  <%= link_to 'Back', todos_path %>
+</div>

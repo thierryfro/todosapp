@@ -1,0 +1,7 @@
+<%= simple_form_for task do |f| %>
+
+  <%= f.input :title %>
+  <%= f.hidden_field :todo_id, value: todo.id %>
+  <%= f.submit "Save" %>
+
+<% end %>
