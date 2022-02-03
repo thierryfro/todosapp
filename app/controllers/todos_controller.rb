@@ -1,10 +1,14 @@
 class TodosController < ApplicationController
   before_action :set_todo, only: [:show, :edit, :update, :destroy]
 
-  # GET /todos
   def index
-    @todos = Todo.all
     @todo = Todo.new
+
+    if params["search"].present?
+      @todos = Todo.search_task(params["search"])
+    else
+      @todos = Todo.all
+    end
   end
 
   def show

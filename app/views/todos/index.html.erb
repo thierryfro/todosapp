@@ -7,7 +7,7 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Todo Name</th>
-      <th scope="col">N.º of tasks</th>
+      <th scope="col">Tasks Done</th>
       <th scope="col">Created</th>
       <th scope="col">Actions</th>
     </tr>
@@ -16,17 +16,21 @@
     <% @todos.each_with_index do |todo, index| %>
       <tr>
         <td><%= index += 1 %></td>
-        <td><%= link_to todo.name, todo_path(todo) %></td>
-        <td><%= todo&.tasks.count %></td>
+        <% if todo.completed? %>
+          <td><del><%= link_to todo.name, todo_path(todo) %><del></td>
+        <% else %>
+          <td><%= link_to todo.name, todo_path(todo) %></td>
+        <% end %>
+        <td><%= todo.tasks_completed %> of (<%= todo&.tasks.count %>)</td>
         <td><%= todo.created_at.strftime("at %I:%M%p") %></td>
         <td>
           <%= link_to edit_todo_path(todo) do %>
-        <%= fa_icon "edit" %>
-      <% end %>
+            <%= fa_icon "edit" %>
+          <% end %>
 
-      <%= link_to todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
-        <%= fa_icon "trash" %>
-      <% end %>
+          <%= link_to todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
+            <%= fa_icon "trash" %>
+          <% end %>
         </td>
       </tr>
     <% end %>

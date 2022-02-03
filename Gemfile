@@ -28,6 +28,8 @@ gem 'simple_form'
 
 gem "font-awesome-rails"
 
+gem 'pg_search'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
