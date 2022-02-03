@@ -4,6 +4,7 @@ class TodosController < ApplicationController
   # GET /todos
   def index
     @todos = Todo.all
+    @todo = Todo.new
   end
 
   def show

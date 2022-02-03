@@ -1,7 +1,10 @@
 <%= simple_form_for task do |f| %>
 
   <%= f.input :title %>
-  <%= f.hidden_field :todo_id, value: todo.id %>
-  <%= f.submit "Save" %>
-
+  <div class="form-actions mt-2">
+    <%= f.hidden_field :todo_id, value: todo.id %>
+  </div>
+  <div class="form-actions mt-2">
+    <%= f.submit "Save", class: 'btn btn-dark' %>
+  </div>
 <% end %>

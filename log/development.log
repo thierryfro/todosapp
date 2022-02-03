@@ -1552,3 +1552,2241 @@ Processing by TodosController#show as HTML
 Completed 200 OK in 60ms (Views: 39.2ms | ActiveRecord: 17.4ms | Allocations: 18297)
 
 
+Started GET "/todos" for ::1 at 2022-02-03 17:14:00 -0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:14
+  Rendered todos/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 4264)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 116.8ms | Allocations: 22581)
+Completed 200 OK in 147ms (Views: 114.8ms | ActiveRecord: 8.1ms | Allocations: 26905)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:16:32 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32
+  Rendered todos/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1281)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 9151)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.9ms | Allocations: 10283)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:17:32 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32
+  Rendered todos/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1003)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 8679)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.9ms | Allocations: 9071)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:17:37 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32
+  Rendered todos/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 9167)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.8ms | Allocations: 10305)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:18:27 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1012)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 8690)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 1.0ms | Allocations: 9091)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:18:31 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 9184)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 1.0ms | Allocations: 10316)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:18:32 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1014)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 11540)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.8ms | Allocations: 11932)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:19:01 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 6428)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 6498)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.9ms | Allocations: 7610)
+
+
+  
+ActionView::Template::Error (undefined method `create_at' for #<Todo:0x00007f7c149b7278>
+Did you mean?  created_at
+               created_at?
+               created_at=):
+    38:           <%= link_to 'Edit', edit_todo_path(todo) %>
+    39:           <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+    40:         </td>
+    41:         <td><%= todo.create_at.to_s(:db) %></td>
+    42:       </tr>
+    43:     <% end %>
+    44:     <tr>
+  
+app/views/todos/index.html.erb:41
+app/views/todos/index.html.erb:32:in `each_with_index'
+app/views/todos/index.html.erb:32
+Started GET "/todos" for ::1 at 2022-02-03 17:19:15 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4110)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4180)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.9ms | Allocations: 4649)
+
+
+  
+ActionView::Template::Error (undefined method `create_at' for #<Todo:0x00007f7c14580600>
+Did you mean?  created_at
+               created_at?
+               created_at=):
+    38:           <%= link_to 'Edit', edit_todo_path(todo) %>
+    39:           <%= link_to 'Destroy', todo, method: :delete, data: { confirm: 'Are you sure?' } %>
+    40:         </td>
+    41:         <td><%= todo.created_at.to_s(:db) %></td>
+    42:       </tr>
+    43:     <% end %>
+    44:     <tr>
+  
+app/views/todos/index.html.erb:41
+app/views/todos/index.html.erb:32:in `each_with_index'
+app/views/todos/index.html.erb:32
+Started PUT "/__web_console/repl_sessions/48e7ad860765591f9b5f93cab23d9be6" for ::1 at 2022-02-03 17:19:55 -0300
+Started PUT "/__web_console/repl_sessions/48e7ad860765591f9b5f93cab23d9be6" for ::1 at 2022-02-03 17:19:55 -0300
+Started PUT "/__web_console/repl_sessions/48e7ad860765591f9b5f93cab23d9be6" for ::1 at 2022-02-03 17:20:06 -0300
+Started PUT "/__web_console/repl_sessions/48e7ad860765591f9b5f93cab23d9be6" for ::1 at 2022-02-03 17:20:08 -0300
+Started GET "/todos" for ::1 at 2022-02-03 17:20:21 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (17.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 1333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 9332)
+Completed 200 OK in 34ms (Views: 15.5ms | ActiveRecord: 17.4ms | Allocations: 10483)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:20:31 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1328)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 9197)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.8ms | Allocations: 10324)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:22:16 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 9210)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 1.0ms | Allocations: 10337)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:22:35 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 9221)
+Completed 200 OK in 62ms (Views: 59.9ms | ActiveRecord: 1.0ms | Allocations: 10357)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:22:57 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1029)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 8705)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 1.2ms | Allocations: 9097)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:23:00 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 9216)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.7ms | Allocations: 10349)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:23:27 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1323)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 9192)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.8ms | Allocations: 10319)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:24:28 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1029)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 8705)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.6ms | Allocations: 9097)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:24:29 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1297)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 9166)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.8ms | Allocations: 10293)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:24:30 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:46:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.8ms | Allocations: 3551)
+  Rendered todos/show.html.erb within layouts/application (Duration: 58.8ms | Allocations: 21528)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 67.5ms | Allocations: 29107)
+Completed 200 OK in 116ms (Views: 66.9ms | ActiveRecord: 8.2ms | Allocations: 37631)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:25:10 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1025)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8703)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.9ms | Allocations: 9104)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:25:12 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 5467)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 5537)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.7ms | Allocations: 6643)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<ActionView::Base:0x007f7c145aa810>):
+    35:         <td><%= link_to todo.name, todo_path(todo) %></td>
+    36:         <td><%= todo.created_at.strftime("at %I:%M%p") %></td>
+    37:         <td>
+    38:           <%= link_to edit_task_path(task) do %>
+    39:         <%= fa_icon "edit" %>
+    40:       <% end %>
+    41: 
+  
+app/views/todos/index.html.erb:38
+app/views/todos/index.html.erb:32:in `each_with_index'
+app/views/todos/index.html.erb:32
+Started GET "/todos" for ::1 at 2022-02-03 17:25:42 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (17.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 21.6ms | Allocations: 5103)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5173)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 17.1ms | Allocations: 5598)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `task' for #<ActionView::Base:0x007f7c1c017288>):
+    35:         <td><%= link_to todo.name, todo_path(todo) %></td>
+    36:         <td><%= todo.created_at.strftime("at %I:%M%p") %></td>
+    37:         <td>
+    38:           <%= link_to edit_todo_path(todo) do %>
+    39:         <%= fa_icon "edit" %>
+    40:       <% end %>
+    41: 
+  
+app/views/todos/index.html.erb:38
+app/views/todos/index.html.erb:32:in `each_with_index'
+app/views/todos/index.html.erb:32
+Started GET "/todos" for ::1 at 2022-02-03 17:25:43 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:32:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 9326)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.8ms | Allocations: 10458)
+
+
+Started GET "/todos/2/edit" for ::1 at 2022-02-03 17:25:47 -0300
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:46:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_todo_form.html.erb (Duration: 14.2ms | Allocations: 6376)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 15.4ms | Allocations: 6784)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 14364)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.9ms | Allocations: 15577)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:26:17 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 9315)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.8ms | Allocations: 10448)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:29:13 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 4.6ms | Allocations: 3523)
+  Rendered todos/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 5030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 12803)
+Completed 200 OK in 33ms (Views: 22.7ms | ActiveRecord: 4.4ms | Allocations: 17462)
+
+
+Started POST "/todos" for ::1 at 2022-02-03 17:29:53 -0300
+Processing by TodosController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"name"=>"Joga bola"}, "commit"=>"Create Todo"}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+  [1m[36mTodo Create (4.1ms)[0m  [1m[32mINSERT INTO "todos" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Joga bola"], ["created_at", "2022-02-03 20:29:53.486802"], ["updated_at", "2022-02-03 20:29:53.486802"]]
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:24:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 29ms (ActiveRecord: 6.5ms | Allocations: 2831)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:29:53 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.0ms | Allocations: 3331)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 13115)
+Completed 200 OK in 46ms (Views: 18.7ms | ActiveRecord: 5.0ms | Allocations: 19815)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:29:59 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 4.8ms | Allocations: 3154)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 4508)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 12765)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.9ms | Allocations: 13174)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:30:08 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.4ms | Allocations: 3096)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.5ms | Allocations: 4027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 11606)
+Completed 200 OK in 30ms (Views: 22.1ms | ActiveRecord: 2.6ms | Allocations: 12707)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:30:39 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.8ms | Allocations: 3250)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.5ms | Allocations: 4733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 12504)
+Completed 200 OK in 23ms (Views: 18.5ms | ActiveRecord: 1.8ms | Allocations: 14343)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:30:41 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 4.8ms | Allocations: 3366)
+  Rendered todos/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 5166)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 13450)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 1.1ms | Allocations: 13987)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:31:11 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.0ms | Allocations: 2950)
+  Rendered todos/show.html.erb within layouts/application (Duration: 15.5ms | Allocations: 10317)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 17898)
+Completed 200 OK in 41ms (Views: 26.1ms | ActiveRecord: 2.1ms | Allocations: 19611)
+
+
+Started GET "/todos/2/edit" for ::1 at 2022-02-03 17:31:13 -0300
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_todo_form.html.erb (Duration: 4.5ms | Allocations: 3203)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3473)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 11753)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.6ms | Allocations: 12964)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:31:14 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (2.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 5.2ms | Allocations: 3153)
+  Rendered todos/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 4475)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 12053)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 2.3ms | Allocations: 12462)
+
+
+Started GET "/todos/3/edit" for ::1 at 2022-02-03 17:31:16 -0300
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_todo_form.html.erb (Duration: 5.5ms | Allocations: 3216)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 3352)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 11054)
+Completed 200 OK in 25ms (Views: 20.4ms | ActiveRecord: 1.1ms | Allocations: 12725)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:31:20 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:15:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 7.5ms | Allocations: 3153)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 4472)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 12050)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 1.5ms | Allocations: 12458)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:32:30 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  Rendered todos/_todo_form.html.erb (Duration: 4.6ms | Allocations: 3353)
+  Rendered todos/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5163)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 12934)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.7ms | Allocations: 14081)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:33:02 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.3ms | Allocations: 3353)
+  Rendered todos/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 6870)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 14641)
+Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 5.8ms | Allocations: 15783)
+
+
+Started GET "/todos/3/edit" for ::1 at 2022-02-03 17:33:08 -0300
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_todo_form.html.erb (Duration: 4.8ms | Allocations: 3203)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3473)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 11759)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.6ms | Allocations: 12971)
+
+
+Started PATCH "/todos/3" for ::1 at 2022-02-03 17:33:16 -0300
+Processing by TodosController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "todo"=>{"name"=>"Atividade Física"}, "commit"=>"Update Todo", "id"=>"3"}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/todos_controller.rb:32:in `update'
+  [1m[36mTodo Update (1.6ms)[0m  [1m[33mUPDATE "todos" SET "name" = $1, "updated_at" = $2 WHERE "todos"."id" = $3[0m  [["name", "Atividade Física"], ["updated_at", "2022-02-03 20:33:16.184822"], ["id", 3]]
+  ↳ app/controllers/todos_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/todos_controller.rb:32:in `update'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 12ms (ActiveRecord: 4.9ms | Allocations: 3253)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:33:16 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (16.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.5ms | Allocations: 3260)
+  Rendered todos/show.html.erb within layouts/application (Duration: 24.2ms | Allocations: 4740)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 12319)
+Completed 200 OK in 47ms (Views: 28.0ms | ActiveRecord: 17.0ms | Allocations: 13556)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:33:17 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.1ms | Allocations: 3175)
+  Rendered todos/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 6779)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 14457)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 3.4ms | Allocations: 14866)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:33:41 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 5.0ms | Allocations: 3153)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 6143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 13721)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 3.3ms | Allocations: 14127)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:33:43 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.3ms | Allocations: 3353)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 6845)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 14616)
+Completed 200 OK in 26ms (Views: 21.7ms | ActiveRecord: 2.9ms | Allocations: 15763)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:34:13 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.3ms | Allocations: 3260)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 4738)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 12317)
+Completed 200 OK in 41ms (Views: 20.0ms | ActiveRecord: 1.7ms | Allocations: 14282)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:34:16 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.9ms | Allocations: 3153)
+  Rendered todos/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 6148)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 13726)
+Completed 200 OK in 31ms (Views: 25.3ms | ActiveRecord: 5.1ms | Allocations: 14135)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:34:17 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 6.1ms | Allocations: 2949)
+  Rendered todos/show.html.erb within layouts/application (Duration: 17.8ms | Allocations: 9654)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 17233)
+Completed 200 OK in 59ms (Views: 42.7ms | ActiveRecord: 1.9ms | Allocations: 19046)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:36:17 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3135)
+  Rendered todos/show.html.erb within layouts/application (Duration: 15.8ms | Allocations: 11890)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 11960)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.4ms | Allocations: 13778)
+
+
+  
+ActionView::Template::Error (undefined method `tasks' for nil:NilClass):
+    37:     </tr>
+    38:   </thead>
+    39:   <tbody>
+    40:     <% @todos.tasks.each_with_index do |task, index| %>
+    41:       <tr>
+    42:         <td><%= index += 1 %></td>
+    43:         <td><%= link_to task.name, task_path(task) %></td>
+  
+app/views/todos/show.html.erb:40
+Started GET "/todos/2" for ::1 at 2022-02-03 17:36:29 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 3.7ms | Allocations: 3135)
+  Rendered todos/show.html.erb within layouts/application (Duration: 27.9ms | Allocations: 13425)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 13495)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.6ms | Allocations: 15312)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<Task:0x00007f7c1368ae20>):
+    40:     <% @todo.tasks.each_with_index do |task, index| %>
+    41:       <tr>
+    42:         <td><%= index += 1 %></td>
+    43:         <td><%= link_to task.name, task_path(task) %></td>
+    44:         <td><%= task.created_at.strftime("at %I:%M%p") %></td>
+    45:         <td>
+    46:           <%= link_to edit_task_path(task) do %>
+  
+app/views/todos/show.html.erb:43
+app/views/todos/show.html.erb:40:in `each_with_index'
+app/views/todos/show.html.erb:40
+Started GET "/todos/2" for ::1 at 2022-02-03 17:36:36 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 5.9ms | Allocations: 3135)
+  Rendered todos/show.html.erb within layouts/application (Duration: 18.6ms | Allocations: 10991)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 18763)
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 1.7ms | Allocations: 20601)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:37:06 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (16.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.2ms | Allocations: 3124)
+  Rendered todos/show.html.erb within layouts/application (Duration: 32.8ms | Allocations: 10966)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 18737)
+Completed 200 OK in 52ms (Views: 32.3ms | ActiveRecord: 17.5ms | Allocations: 20571)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:37:41 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3124)
+  Rendered todos/show.html.erb within layouts/application (Duration: 16.0ms | Allocations: 10966)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 18737)
+Completed 200 OK in 41ms (Views: 30.9ms | ActiveRecord: 1.5ms | Allocations: 20571)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:37:46 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3135)
+  Rendered todos/show.html.erb within layouts/application (Duration: 15.6ms | Allocations: 11000)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 18772)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 1.4ms | Allocations: 20612)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:39:28 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:6
+  Rendered tasks/_task_form.html.erb (Duration: 3.9ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 10.0ms | Allocations: 6585)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 14356)
+Completed 200 OK in 36ms (Views: 20.2ms | ActiveRecord: 1.7ms | Allocations: 16190)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:40:17 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.9ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5614)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 13385)
+Completed 200 OK in 34ms (Views: 18.6ms | ActiveRecord: 1.6ms | Allocations: 15219)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:40:25 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"false"}, "commit"=>"Mark as done", "id"=>"4"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 9ms (ActiveRecord: 2.8ms | Allocations: 3842)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:40:25 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.6ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4843)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 12421)
+Completed 200 OK in 20ms (Views: 15.8ms | ActiveRecord: 1.7ms | Allocations: 13528)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:40:46 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 15.8ms | Allocations: 3243)
+  Rendered todos/show.html.erb within layouts/application (Duration: 22.1ms | Allocations: 5629)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 13406)
+Completed 200 OK in 46ms (Views: 40.7ms | ActiveRecord: 1.9ms | Allocations: 15242)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:40:51 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.8ms | Allocations: 3244)
+  Rendered todos/show.html.erb within layouts/application (Duration: 11.0ms | Allocations: 5624)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 13395)
+Completed 200 OK in 29ms (Views: 24.6ms | ActiveRecord: 2.1ms | Allocations: 15234)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:41:46 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.9ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.5ms | Allocations: 4842)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 12542)
+Completed 200 OK in 25ms (Views: 16.4ms | ActiveRecord: 1.3ms | Allocations: 13641)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:41:47 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.0ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5619)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 13390)
+Completed 200 OK in 25ms (Views: 20.7ms | ActiveRecord: 1.5ms | Allocations: 15224)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:42:50 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 12422)
+Completed 200 OK in 26ms (Views: 15.9ms | ActiveRecord: 1.3ms | Allocations: 13521)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:42:53 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.9ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.2ms | Allocations: 5617)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 13388)
+Completed 200 OK in 36ms (Views: 30.2ms | ActiveRecord: 2.0ms | Allocations: 15223)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:43:33 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (15.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3254)
+  Rendered todos/show.html.erb within layouts/application (Duration: 23.7ms | Allocations: 5643)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 13415)
+Completed 200 OK in 41ms (Views: 21.4ms | ActiveRecord: 16.3ms | Allocations: 15254)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:47:01 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.5ms | Allocations: 5641)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 13412)
+Completed 200 OK in 31ms (Views: 27.0ms | ActiveRecord: 1.5ms | Allocations: 15246)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:47:02 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.9ms | Allocations: 4850)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 12428)
+Completed 200 OK in 23ms (Views: 18.5ms | ActiveRecord: 1.8ms | Allocations: 13527)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:47:03 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.9ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 12414)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 1.5ms | Allocations: 13512)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:47:58 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.5ms | Allocations: 5628)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 13399)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 1.5ms | Allocations: 15233)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:47:59 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.5ms | Allocations: 3080)
+  Rendered todos/show.html.erb within layouts/application (Duration: 6.8ms | Allocations: 4872)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 12451)
+Completed 200 OK in 23ms (Views: 16.3ms | ActiveRecord: 1.4ms | Allocations: 13551)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:52:06 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.3ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5628)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 13399)
+Completed 200 OK in 37ms (Views: 27.8ms | ActiveRecord: 1.3ms | Allocations: 15238)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:52:20 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.3ms | Allocations: 3234)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5630)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 13401)
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 1.8ms | Allocations: 15235)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:52:21 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4854)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 12432)
+Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 1.9ms | Allocations: 13531)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:52:22 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.5ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.5ms | Allocations: 4840)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 12418)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 1.7ms | Allocations: 13516)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:52:34 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 14.0ms | Allocations: 3068)
+  Rendered todos/show.html.erb within layouts/application (Duration: 17.8ms | Allocations: 4849)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 12428)
+Completed 200 OK in 47ms (Views: 26.6ms | ActiveRecord: 1.5ms | Allocations: 13527)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:11 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3244)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5639)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 13410)
+Completed 200 OK in 38ms (Views: 20.0ms | ActiveRecord: 1.6ms | Allocations: 15249)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:53:25 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"false"}, "commit"=>"Done", "id"=>"4"}
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 8ms (ActiveRecord: 2.9ms | Allocations: 3473)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:25 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.5ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 6.9ms | Allocations: 4852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 12430)
+Completed 200 OK in 31ms (Views: 15.8ms | ActiveRecord: 1.5ms | Allocations: 13537)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:29 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.9ms | Allocations: 4837)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 12415)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 1.6ms | Allocations: 13513)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:37 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.7ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.7ms | Allocations: 4837)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 12415)
+Completed 200 OK in 22ms (Views: 17.8ms | ActiveRecord: 1.9ms | Allocations: 13513)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:38 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.7ms | Allocations: 4837)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 12416)
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 1.4ms | Allocations: 13515)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:53:39 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"false"}, "commit"=>"Done", "id"=>"4"}
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 15ms (ActiveRecord: 2.8ms | Allocations: 3470)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:53:39 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.1ms | Allocations: 3079)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4858)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 12436)
+Completed 200 OK in 20ms (Views: 16.7ms | ActiveRecord: 1.5ms | Allocations: 13542)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:54:06 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"false"}, "commit"=>"Done", "id"=>"4"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 9ms (ActiveRecord: 3.4ms | Allocations: 3470)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:54:06 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.4ms | Allocations: 3059)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4838)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 12416)
+Completed 200 OK in 30ms (Views: 16.1ms | ActiveRecord: 1.5ms | Allocations: 13522)
+
+
+Started GET "/tasks/4/edit" for ::1 at 2022-02-03 17:54:56 -0300
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/tasks/edit.html.erb:3
+  Rendered tasks/_task_form.html.erb (Duration: 5.8ms | Allocations: 3128)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5357)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 13035)
+Completed 200 OK in 32ms (Views: 26.3ms | ActiveRecord: 2.2ms | Allocations: 14646)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:54:58 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 7.8ms | Allocations: 3470)
+  Rendered todos/index.html.erb within layouts/application (Duration: 23.8ms | Allocations: 7550)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 15129)
+Completed 200 OK in 39ms (Views: 32.5ms | ActiveRecord: 5.4ms | Allocations: 15666)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:55:00 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (2.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 3.8ms | Allocations: 3060)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.7ms | Allocations: 4844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 13133)
+Completed 200 OK in 49ms (Views: 33.5ms | ActiveRecord: 2.8ms | Allocations: 14235)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:55:27 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"false"}, "commit"=>"Done", "id"=>"4"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:37:in `set_task'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 56698ms (ActiveRecord: 10.3ms | Allocations: 52782)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:56:24 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3136)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 13309)
+Completed 200 OK in 42ms (Views: 23.3ms | ActiveRecord: 1.7ms | Allocations: 14707)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:56:26 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 20.4ms | Allocations: 3273)
+  Rendered todos/show.html.erb within layouts/application (Duration: 26.2ms | Allocations: 5662)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 13439)
+Completed 200 OK in 44ms (Views: 39.3ms | ActiveRecord: 1.6ms | Allocations: 15279)
+
+
+Started PATCH "/tasks/4" for ::1 at 2022-02-03 17:56:27 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"true"}, "commit"=>"Done", "id"=>"4"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:37:in `set_task'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTask Update (1.3ms)[0m  [1m[33mUPDATE "tasks" SET "done" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["done", true], ["updated_at", "2022-02-03 20:56:34.451480"], ["id", 4]]
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+Redirected to http://localhost:3000/todos/2
+Completed 302 Found in 6597ms (ActiveRecord: 7.2ms | Allocations: 6758)
+
+
+Started GET "/todos/2" for ::1 at 2022-02-03 17:56:34 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.5ms | Allocations: 3100)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 4887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 12465)
+Completed 200 OK in 31ms (Views: 19.6ms | ActiveRecord: 1.5ms | Allocations: 13572)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 17:56:51 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 6.4ms | Allocations: 3527)
+  Rendered todos/index.html.erb within layouts/application (Duration: 24.2ms | Allocations: 7769)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 15348)
+Completed 200 OK in 39ms (Views: 32.4ms | ActiveRecord: 4.1ms | Allocations: 15884)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:56:53 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.7ms | Allocations: 3106)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4044)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 11622)
+Completed 200 OK in 36ms (Views: 18.7ms | ActiveRecord: 1.6ms | Allocations: 13423)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 17:57:02 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Basketball", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (16.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (1.6ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Basketball"], ["todo_id", 3], ["created_at", "2022-02-03 20:57:02.824421"], ["updated_at", "2022-02-03 20:57:02.824421"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 27ms (ActiveRecord: 20.2ms | Allocations: 3601)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:57:02 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.2ms | Allocations: 3089)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.2ms | Allocations: 4455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 12033)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 1.4ms | Allocations: 13140)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 17:57:07 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Futebol", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (1.2ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Futebol"], ["todo_id", 3], ["created_at", "2022-02-03 20:57:07.278629"], ["updated_at", "2022-02-03 20:57:07.278629"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 12ms (ActiveRecord: 4.3ms | Allocations: 3571)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:57:07 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.8ms | Allocations: 3109)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4881)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 12460)
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 1.4ms | Allocations: 13566)
+
+
+Started PATCH "/tasks/5" for ::1 at 2022-02-03 17:57:22 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"true"}, "commit"=>"Done", "id"=>"5"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:37:in `set_task'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTask Update (0.9ms)[0m  [1m[33mUPDATE "tasks" SET "done" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["done", true], ["updated_at", "2022-02-03 20:57:26.501683"], ["id", 5]]
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:18:in `update'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 3910ms (ActiveRecord: 4.3ms | Allocations: 8435)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 17:57:26 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.5ms | Allocations: 3089)
+  Rendered todos/show.html.erb within layouts/application (Duration: 10.4ms | Allocations: 4862)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 12440)
+Completed 200 OK in 32ms (Views: 20.5ms | ActiveRecord: 1.7ms | Allocations: 13546)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:02:37 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 15.2ms | Allocations: 3120)
+  Rendered todos/show.html.erb within layouts/application (Duration: 20.2ms | Allocations: 6277)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 13857)
+Completed 200 OK in 56ms (Views: 34.6ms | ActiveRecord: 8.6ms | Allocations: 22268)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:02:46 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (16.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.6ms | Allocations: 3274)
+  Rendered todos/show.html.erb within layouts/application (Duration: 26.6ms | Allocations: 5665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 13436)
+Completed 200 OK in 45ms (Views: 24.3ms | ActiveRecord: 17.3ms | Allocations: 15275)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:03:46 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 9.0ms | Allocations: 3634)
+  Rendered todos/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 7777)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 15356)
+Completed 200 OK in 30ms (Views: 25.7ms | ActiveRecord: 2.9ms | Allocations: 15893)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:04:46 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 5.5ms | Allocations: 3389)
+  Rendered todos/index.html.erb within layouts/application (Duration: 27.9ms | Allocations: 6873)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.5ms | Allocations: 14644)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 2.7ms | Allocations: 15786)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:05:07 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 15.9ms | Allocations: 3400)
+  Rendered todos/index.html.erb within layouts/application (Duration: 35.1ms | Allocations: 6884)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 14661)
+Completed 200 OK in 50ms (Views: 45.5ms | ActiveRecord: 2.5ms | Allocations: 15804)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:05:23 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 7.5ms | Allocations: 3274)
+  Rendered todos/show.html.erb within layouts/application (Duration: 13.9ms | Allocations: 5691)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 13945)
+Completed 200 OK in 32ms (Views: 27.8ms | ActiveRecord: 1.6ms | Allocations: 15174)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:05:57 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.1ms | Allocations: 3089)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.6ms | Allocations: 4866)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 12444)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 1.5ms | Allocations: 13543)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:05:58 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.1ms | Allocations: 3271)
+  Rendered todos/show.html.erb within layouts/application (Duration: 10.2ms | Allocations: 5655)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 13426)
+Completed 200 OK in 27ms (Views: 21.7ms | ActiveRecord: 1.6ms | Allocations: 15264)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:07:00 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (17.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3095)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.9ms | Allocations: 4880)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 12579)
+Completed 200 OK in 38ms (Views: 17.6ms | ActiveRecord: 17.9ms | Allocations: 13678)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:07:01 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.1ms | Allocations: 3299)
+  Rendered todos/show.html.erb within layouts/application (Duration: 10.4ms | Allocations: 5689)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 13461)
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 1.5ms | Allocations: 15301)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:08:33 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.5ms | Allocations: 3277)
+  Rendered todos/show.html.erb within layouts/application (Duration: 11.3ms | Allocations: 5676)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 13447)
+Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 1.6ms | Allocations: 15281)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:09:13 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.9ms | Allocations: 3277)
+  Rendered todos/show.html.erb within layouts/application (Duration: 10.5ms | Allocations: 5675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 13446)
+Completed 200 OK in 27ms (Views: 22.0ms | ActiveRecord: 1.7ms | Allocations: 15280)
+
+
+Started DELETE "/tasks/6" for ::1 at 2022-02-03 18:09:39 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"6"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTask Destroy (0.9ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 8ms (ActiveRecord: 3.1ms | Allocations: 2917)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:09:39 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 5.0ms | Allocations: 3400)
+  Rendered todos/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 6887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 14466)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 2.7ms | Allocations: 15009)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:09:58 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (1.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.8ms | Allocations: 3115)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.8ms | Allocations: 4488)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 12067)
+Completed 200 OK in 36ms (Views: 21.5ms | ActiveRecord: 2.1ms | Allocations: 13872)
+
+
+Started DELETE "/tasks/5" for ::1 at 2022-02-03 18:10:01 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTask Destroy (0.7ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 21ms (ActiveRecord: 2.9ms | Allocations: 2747)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:10:01 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 5.0ms | Allocations: 3198)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 6191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 13769)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 2.8ms | Allocations: 14183)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:10:03 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.4ms | Allocations: 3110)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 12332)
+Completed 200 OK in 27ms (Views: 23.1ms | ActiveRecord: 1.5ms | Allocations: 13432)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 18:10:39 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Curling", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (0.9ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Curling"], ["todo_id", 3], ["created_at", "2022-02-03 21:10:39.228261"], ["updated_at", "2022-02-03 21:10:39.228261"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 42ms (ActiveRecord: 11.4ms | Allocations: 11572)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:10:39 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3136)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 12910)
+Completed 200 OK in 37ms (Views: 17.6ms | ActiveRecord: 1.4ms | Allocations: 14308)
+
+
+Started DELETE "/tasks/7" for ::1 at 2022-02-03 18:10:42 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTask Destroy (0.7ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+Redirected to http://localhost:3000/todos
+Completed 302 Found in 21ms (ActiveRecord: 2.8ms | Allocations: 2842)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:10:42 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.8ms | Allocations: 3330)
+  Rendered todos/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 6373)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 13951)
+Completed 200 OK in 24ms (Views: 20.9ms | ActiveRecord: 2.6ms | Allocations: 14365)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:11:03 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 14.4ms | Allocations: 3197)
+  Rendered todos/show.html.erb within layouts/application (Duration: 17.2ms | Allocations: 4912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 12492)
+Completed 200 OK in 47ms (Views: 26.6ms | ActiveRecord: 8.5ms | Allocations: 20861)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 18:11:21 -0300
+  
+SyntaxError (/Users/thierry/code/thierryfro/todosapp/app/controllers/tasks_controller.rb:18: syntax error, unexpected '(', expecting end
+      redirect_to @task_path(@task.todo_id), notice: "Task...
+                            ^
+/Users/thierry/code/thierryfro/todosapp/app/controllers/tasks_controller.rb:18: syntax error, unexpected ')', expecting end
+...ct_to @task_path(@task.todo_id), notice: "Task updated"
+...                              ^):
+  
+app/controllers/tasks_controller.rb:18: syntax error, unexpected '(', expecting end
+app/controllers/tasks_controller.rb:18: syntax error, unexpected ')', expecting end
+app/controllers/tasks_controller.rb:18: syntax error, unexpected '(', expecting end
+app/controllers/tasks_controller.rb:18: syntax error, unexpected ')', expecting end
+app/controllers/tasks_controller.rb:18: syntax error, unexpected '(', expecting end
+app/controllers/tasks_controller.rb:18: syntax error, unexpected ')', expecting end
+Started POST "/tasks" for ::1 at 2022-02-03 18:11:44 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Bola", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (1.1ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Bola"], ["todo_id", 3], ["created_at", "2022-02-03 21:11:44.830096"], ["updated_at", "2022-02-03 21:11:44.830096"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 33ms (ActiveRecord: 11.1ms | Allocations: 11603)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:11:44 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3136)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 5330)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 12911)
+Completed 200 OK in 47ms (Views: 27.9ms | ActiveRecord: 1.4ms | Allocations: 14310)
+
+
+Started PATCH "/tasks/8" for ::1 at 2022-02-03 18:11:47 -0300
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"done"=>"true"}, "commit"=>"Done", "id"=>"8"}
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTask Update (1.0ms)[0m  [1m[33mUPDATE "tasks" SET "done" = $1, "updated_at" = $2 WHERE "tasks"."id" = $3[0m  [["done", true], ["updated_at", "2022-02-03 21:11:47.871354"], ["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:17:in `update'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 12ms (ActiveRecord: 4.7ms | Allocations: 4312)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:11:47 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 5.5ms | Allocations: 3114)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 12060)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 1.3ms | Allocations: 13166)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 18:11:54 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Pipa", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (1.5ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Pipa"], ["todo_id", 3], ["created_at", "2022-02-03 21:11:54.413764"], ["updated_at", "2022-02-03 21:11:54.413764"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 27ms (ActiveRecord: 4.1ms | Allocations: 3571)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:11:54 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.4ms | Allocations: 3094)
+  Rendered todos/show.html.erb within layouts/application (Duration: 8.1ms | Allocations: 4877)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 12455)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 1.4ms | Allocations: 13561)
+
+
+Started DELETE "/tasks/8" for ::1 at 2022-02-03 18:11:59 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"8"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTask Destroy (1.8ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:26:in `destroy'
+Redirected to http://localhost:3000/todos.3
+Completed 302 Found in 25ms (ActiveRecord: 4.4ms | Allocations: 3475)
+
+
+Started GET "/todos.3" for ::1 at 2022-02-03 18:11:59 -0300
+Processing by TodosController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 14.2ms | Allocations: 3339)
+  Rendered todos/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 6517)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 14096)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 2.8ms | Allocations: 14655)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:12:04 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (1.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.9ms | Allocations: 3104)
+  Rendered todos/show.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4584)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 12169)
+Completed 200 OK in 36ms (Views: 23.0ms | ActiveRecord: 2.7ms | Allocations: 13852)
+
+
+Started POST "/tasks" for ::1 at 2022-02-03 18:12:43 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"Bola", "todo_id"=>"3"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTodo Load (0.9ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTask Create (0.9ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "todo_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["title", "Bola"], ["todo_id", 3], ["created_at", "2022-02-03 21:12:43.632153"], ["updated_at", "2022-02-03 21:12:43.632153"]]
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:6:in `create'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 35ms (ActiveRecord: 11.7ms | Allocations: 11569)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:12:43 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 13.1ms | Allocations: 3124)
+  Rendered todos/show.html.erb within layouts/application (Duration: 17.7ms | Allocations: 5733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 13313)
+Completed 200 OK in 51ms (Views: 31.5ms | ActiveRecord: 1.5ms | Allocations: 14712)
+
+
+Started DELETE "/tasks/10" for ::1 at 2022-02-03 18:12:51 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"10"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:37:in `set_task'
+  [1m[36mTRANSACTION (8.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:26:in `destroy'
+  [1m[36mTask Destroy (0.8ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/tasks_controller.rb:26:in `destroy'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:26:in `destroy'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:27:in `destroy'
+Redirected to http://localhost:3000/todos.3
+Completed 302 Found in 72381ms (ActiveRecord: 11.8ms | Allocations: 8720)
+
+
+Started GET "/todos.3" for ::1 at 2022-02-03 18:14:04 -0300
+Processing by TodosController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.0ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 4.8ms | Allocations: 3332)
+  Rendered todos/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 6374)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 13952)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 3.0ms | Allocations: 14368)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:14:06 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.6ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (14.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.6ms | Allocations: 3136)
+  Rendered todos/show.html.erb within layouts/application (Duration: 22.9ms | Allocations: 5887)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 13467)
+Completed 200 OK in 60ms (Views: 18.7ms | ActiveRecord: 22.1ms | Allocations: 21878)
+
+
+Started DELETE "/tasks/9" for ::1 at 2022-02-03 18:14:11 -0300
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"9"}
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTask Destroy (1.5ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTRANSACTION (17.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:25:in `destroy'
+  [1m[36mTodo Load (0.8ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:26:in `destroy'
+Redirected to http://localhost:3000/todos/3
+Completed 302 Found in 32ms (ActiveRecord: 22.5ms | Allocations: 3764)
+
+
+Started GET "/todos/3" for ::1 at 2022-02-03 18:14:11 -0300
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTodo Load (0.5ms)[0m  [1m[34mSELECT "todos".* FROM "todos" WHERE "todos"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/todos_controller.rb:47:in `set_todo'
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/show.html.erb:14:in `each_with_index'
+  Rendered tasks/_task_form.html.erb (Duration: 4.6ms | Allocations: 3188)
+  Rendered todos/show.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4905)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 12484)
+Completed 200 OK in 37ms (Views: 18.0ms | ActiveRecord: 7.4ms | Allocations: 20900)
+
+
+Started GET "/todos" for ::1 at 2022-02-03 18:14:13 -0300
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  [1m[36mTodo Load (1.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/views/todos/index.html.erb:16:in `each_with_index'
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 2]]
+  ↳ app/views/todos/index.html.erb:20
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."todo_id" = $1[0m  [["todo_id", 3]]
+  ↳ app/views/todos/index.html.erb:20
+  Rendered todos/_todo_form.html.erb (Duration: 7.7ms | Allocations: 3340)
+  Rendered todos/index.html.erb within layouts/application (Duration: 25.3ms | Allocations: 6977)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 14670)
+Completed 200 OK in 45ms (Views: 39.0ms | ActiveRecord: 4.8ms | Allocations: 15079)
+
+

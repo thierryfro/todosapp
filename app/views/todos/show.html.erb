@@ -1,28 +1,47 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @todo.name %>
-  <% @todo.tasks.each do |task| %>
-    <p>
-      <%= task.title %>
-      <%= link_to edit_task_path(task) do %>
+<h4><%= @todo.name %></h4>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Task Name</th>
+      <th scope="col">Mark as Done</th>
+      <th scope="col">Created</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @todo.tasks.each_with_index do |task, index| %>
+      <tr>
+        <td><%= index += 1 %></td>
+        <td><%= link_to task.title, task_path(task) %></td>
+        <td>
+          <%= simple_form_for task do |c| %>
+            <%= c.hidden_field :done, value: true %>
+            <%= c.submit task.done? ? 'You did it!' : 'Done',
+                         disabled: task.done? ? true : false,
+                         class: 'btn btn-success' %>
+      <% end %>
+        </td>
+        <td><%= task.created_at.strftime("at %I:%M%p") %></td>
+        <td>
+          <%= link_to edit_task_path(task) do %>
         <%= fa_icon "edit" %>
       <% end %>
 
-      <%= link_to @todo, method: :delete, data: { confirm: 'Are you sure?' } do %>
+      <%= link_to task, method: :delete, data: { confirm: 'Are you sure?' } do %>
         <%= fa_icon "trash" %>
       <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
-      <%= simple_form_for task do |c| %>
-        <%= c.input :done %>
-        <%= c.submit 'Mark as done' %>
-      <% end %>
-    </p>
-  <% end %>
-</p>
+<div class="container">
+  <h5>Add an new Task</h5>
+  <%= render 'tasks/task_form', todo: @todo, task: @task %>
 
-<%= render 'tasks/task_form', todo: @todo, task: @task %>
-
-<%= link_to 'Edit', edit_todo_path(@todo) %> |
-<%= link_to 'Back', todos_path %>
+  <%= link_to 'Edit', edit_todo_path(@todo) %> |
+  <%= link_to 'Back', todos_path %>
+</div>

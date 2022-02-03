@@ -23,7 +23,7 @@ class TasksController < ApplicationController
 
   def destroy
     @task.destroy
-    redirect_to todos_path, notice: 'Task was successfully destroyed.'
+    redirect_to todo_path(@task.todo), notice: 'Task was successfully destroyed.'
   end
 
   private
